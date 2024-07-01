@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://cdn.theathletic.com/cdn-cgi/image/width=1200,height=900,fit=cover/app/uploads/2022/10/09065959/euro-2024-draw-live-stream.jpg);
+    background-size: cover;
+}
+.container {
+    background-color: #e0d4f7;;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgba(118, 120, 238, 0.1);
+    width: 300px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form-group input:focus {
+    border-color: #007BFF;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+.link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+}

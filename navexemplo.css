@@ -1,0 +1,194 @@
+body {
+    background-color: beige;
+}
+
+#btn-registrar {
+    margin-right: 10px;
+    margin-left: 200px;
+    
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 70px;
+}
+
+
+#carousel img {
+    height: 93vh;
+    display: flex;
+    background-size: cover;
+}
+
+#conteudo img{
+    height: 280px;
+}
+
+#conteudo h1{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#conteudo {
+    background-color: beige;
+    margin-bottom: 50px;
+}
+
+#ganhadores {
+    /*background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNaJGPaiql9GeWweQGZ_zKoLDjPFcfPGX5lN58siTpQ3L_NA9BICO-gK5omd9Q1ZQ8UJXBUry4a65IVoJg_HQm1pEL9i8g3Etm8KhyphenhyphenxzNi2ZAV-RfH3XAIxEFECqguhWOUNxAF4yRiZZo/s1600/uefa+euro+cup+trophy.jpg) no-repeat center center;
+    background-size: cover;*/
+    background-color: beige;
+    margin-bottom: 50px;
+    color: black;
+}
+
+#ganhadores h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+#ganhadores li {
+    margin-left: 20px;
+}
+
+
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+
+footer {
+    background-color:rgb(245,245,220);
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+footer img {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #conteudo{
+        display: grid;
+        max-width: 90%;
+        margin-bottom: 600px; }
+    #conteudo .row {    
+        display: grid;
+        text-align: center;
+        margin-left: 50px;
+        grid-template-columns: repeat(2, 50.6%);
+    }
+    #conteudo .col-4 {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #btn-registrar {
+        margin-right: 0px;
+        margin-left: 0px;
+        
+    }
+    .navbar-nav .nav-link.active {
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    #conteudo a {
+        margin-top: 10px;
+    }
+
+    #conteudo .card-footer{
+        margin-top: 1px;
+    }
+    
+    .container #ganhadores {
+    height: 500px;
+    }
+
+    footer {
+        background-color: rgb(238, 238, 196);
+        padding-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    #conteudo{
+        display: block;
+        max-width: 90%;
+        margin-bottom: 1100px; }
+    #conteudo .row {    
+        display: block;
+        text-align: center;
+        margin-left: 50px;
+    }
+    #conteudo .col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #btn-registrar {
+        margin-right: 0px;
+        margin-left: 0px;
+        
+    }
+    .navbar-nav .nav-link.active {
+        margin-bottom: 5px;
+        color: #fff;
+    }
+
+    #conteudo a {
+        margin-top: 10px;
+    }
+
+    #conteudo .card-footer{
+        margin-top: 1px;
+    }
+    
+    .container #ganhadores {
+    height: 500px;
+    }
+
+    footer {
+        background-color: rgb(238, 238, 196);
+        padding-top: 10px;
+    }
+
+}

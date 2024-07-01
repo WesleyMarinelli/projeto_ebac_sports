@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./navexemplo.css">
+
+
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container" id="">
+                <h1>Ebac Sports</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#carousel">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conteudo">Materia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ganhadores">Ganhadores</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+            
+            <button id="btn-registrar" type="button" class="btn btn-secondary">
+                <a href="conta.html">Criar conta</a>
+            </button>
+            
+            <button id="btn-login" type="button" class="btn btn-primary">
+                <a href="login.html">Login</a>
+            </button>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="carousel">
+            <div id="carousel-botao" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2024/06/euro_grupo_globo_Easy-Resize.com_-aspect-ratio-512-320-1.jpg"/>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://cdn.theathletic.com/cdn-cgi/image/width=1200,height=900,fit=cover/app/uploads/2022/10/09065959/euro-2024-draw-live-stream.jpg"/>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://company.rtl.com/export/sites/rtlunited/.galleries/images/Groupe-M6_-UEFA-Euro-16-9.jpg"/>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-botao" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-botao" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-botao" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-botao" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-botao" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+        <section id="conteudo">
+            <div class="container">
+                <h1>Favoritos para a EUROCOPA 2024 </h1>
+                <div class="row">
+                    <div class="col-4">
+                        <article class="card"> 
+                            <div class="card-header">
+                                INGLATERRA
+                            </div>
+                            <img src= https://editorial.uefa.com/resources/026b-12b6b89d2f25-7702e3fbb95b-1000/eng_players.jpeg />
+                            <div class="card-body">
+                                
+                                <h5 class="card-subtitle">Harry Kane vai ajudar a selecao inglesa a conquistar a eurocopa ?</h5>
+                                <p class="card-text"> </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>25/06/2024 as 12:00</time>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card">
+                            <div class="card-header">
+                                PORTUGAL
+                            </div>
+                            <img src="https://theanalyst.com/wp-content/uploads/2022/03/portugal-world-cup-2022.jpg"/>
+                            <div class="card-body">
+                                
+                                <h5 class="card-subtitle">Ronaldo vai conquistar a europa em sua ultima participacao ?</h5>
+                                <p class="card-text"> </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>25/06/2024 as 12:00</time>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card">
+                            <div class="card-header">
+                                ALEMANHA
+                            </div>
+                            <img src="https://assets.goal.com/images/v3/blt7e2ec9f3e31aedd8/WC_Squads_Germany.jpg?auto=webp&format=pjpg&width=3840&quality=60"/>
+                            <div class="card-body">
+                                
+                                <h5 class="card-subtitle"> Toni Kroos vai encerrar sua carreira conquistando a europa ?</h5>
+                                <p class="card-text"> </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>25/06/2024 as 12:00</time>
+                            </footer>
+                        </article>
+                    </div>
+                </div>    
+            </div>
+            
+        </section>
+
+        <div class="container">
+            <section id="ganhadores">
+                <h2>Ganhadores da Eurocopa</h2>
+                <ul class="custom-list">
+                    <li class="custom-item">1960 - União Soviética</li>
+                    <li class="custom-item">1964 - Espanha</li>
+                    <li class="custom-item">1968 - Itália</li>
+                    <li class="custom-item">1972 - Alemanha Ocidental</li>
+                    <li class="custom-item">1976 - Tchecoslováquia</li>
+                    <li class="custom-item">1980 - Alemanha Ocidental</li>
+                    <li class="custom-item">1984 - França</li>
+                    <li class="custom-item">1988 - Holanda</li>
+                    <li class="custom-item">1992 - Dinamarca</li>
+                    <li class="custom-item">1996 - Alemanha</li>
+                    <li class="custom-item">2000 - França</li>
+                    <li class="custom-item">2004 - Grécia</li>
+                    <li class="custom-item">2008 - Espanha</li>
+                    <li class="custom-item">2012 - Espanha</li>
+                    <li class="custom-item">2016 - Portugal</li>
+                    <li class="custom-item">2020 (realizada em 2021) - Itália</li>
+            </section>
+            
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Ebac Sports Center  -  Todos os direitos reservados  -  2024
+            </p>
+            <p>
+                Redes socias
+            </p>
+            <div>
+                <ul class="brands-list">
+                    <li> <img src="./imagens/facebook.png" alt="facebook" /> </li>
+                    <li> <img src="./imagens/instagram.png" alt="instagram" /> </li>
+                    <li> <img src="./imagens/youtube.png" alt="youtube" /> </li>   
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
